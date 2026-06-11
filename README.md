@@ -155,4 +155,11 @@ And enjoy chatting with our HR MCP Server...
 
 <img width="763" height="685" alt="Screenshot 2026-06-11 at 7 59 21 AM" src="https://github.com/user-attachments/assets/ccca83bb-7e29-418d-8c8e-84b80e569792" />
 
+Example requests:
 
+"leave balance for Osama Oransa?"
+"basic profile for Sara Ali"
+"Show my full profile for EMP001?"
+"policy for remote work?"
+"leave requests for Osama Oransa."
+"basic profile for EMP002"
