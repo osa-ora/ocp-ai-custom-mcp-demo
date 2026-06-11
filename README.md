@@ -1,6 +1,10 @@
 # OCP AI Custom MCP Server Demo
 Demo to show how to deploy our custom HR MCP Server over OpenShift.
 
+This is how it looks when this MCP Server deployed into OpenShift:
+
+<img width="1536" height="1024" alt="HR-MCP-Server-OCP" src="https://github.com/user-attachments/assets/562d4372-7fde-4867-ad39-a38490d72e33" />
+
 ## Steps to Run the Demo on OpenShift Environment
 
 ### 1) Create Project and Configurations
@@ -147,4 +151,8 @@ Add the http prefix and the path configured /mcp at the end, and configure it in
 
 <img width="767" height="682" alt="Screenshot 2026-06-11 at 12 07 04 AM" src="https://github.com/user-attachments/assets/2e7f2a26-11d7-4a40-97e9-bf27a714ae4a" />
 
-And enjoy chatting with our HR MCP Server.
+And enjoy chatting with our HR MCP Server...
+
+<img width="763" height="685" alt="Screenshot 2026-06-11 at 7 59 21 AM" src="https://github.com/user-attachments/assets/ccca83bb-7e29-418d-8c8e-84b80e569792" />
+
+
