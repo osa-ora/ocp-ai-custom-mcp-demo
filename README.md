@@ -142,7 +142,10 @@ Then create a playground for the MCP server and one of the existing models, and 
 
 <img width="1477" height="721" alt="Screenshot 2026-06-11 at 12 04 44 AM" src="https://github.com/user-attachments/assets/1c8f1742-cf05-439d-8dd9-acf3e00e55d7" />
 
-To connect to it remotely from ChatBox for example, get the route URL or execute the following command.
+Try to modify the prompt to give the LLM guidelines how to use the HR MCP server, for example: "if you don't have the employee_code try to get it first before calling other functions."
+
+
+To connect to this KCP server remotely from outside OpenShift, for example: ChatBox application, get the route URL or execute the following command.
 
 ```
 oc get route hr-mcp-server -n hr-mcp -o jsonpath='{.spec.host}{"\n"}'
@@ -164,7 +167,7 @@ Example requests:
 - leave requests for Osama Oransa.
 - basic profile for EMP002
 
-### To deploy a sample OpenShift MCP Client App, follow the following guide: https://github.com/osa-ora/ocp-ai-mcp-client-demo
+### Note: To deploy a sample OpenShift MCP Client App, follow the following guide: https://github.com/osa-ora/ocp-ai-mcp-client-demo
 
 
 
