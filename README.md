@@ -163,3 +163,8 @@ Example requests:
 - policy for remote work?
 - leave requests for Osama Oransa.
 - basic profile for EMP002
+
+### To deploy a sample OpenShift MCP Client App, follow the following guide: https://github.com/osa-ora/ocp-ai-mcp-client-demo
+
+
+
