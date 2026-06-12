@@ -157,9 +157,9 @@ And enjoy chatting with our HR MCP Server...
 
 Example requests:
 
-"leave balance for Osama Oransa?"
-"basic profile for Sara Ali"
-"Show my full profile for EMP001?"
-"policy for remote work?"
-"leave requests for Osama Oransa."
-"basic profile for EMP002"
+- leave balance for Osama Oransa?
+- basic profile for Sara Ali
+- Show my full profile for EMP001?
+- policy for remote work?
+- leave requests for Osama Oransa.
+- basic profile for EMP002
