@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: hr-mcp-config
+data:
+  DATABASE_HOST: postgresql.hr-mcp.svc.cluster.local
+  DATABASE_PORT: "5432"
+  DATABASE_NAME: hrdb
+  MCP_HOST: 0.0.0.0
+  MCP_PORT: "8080"
+  MCP_TRANSPORT: http
+  MCP_PATH: /mcp
+  DEBUG: "true"
