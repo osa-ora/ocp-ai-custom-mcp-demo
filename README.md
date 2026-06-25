@@ -29,14 +29,19 @@ oc create configmap hr-mcp-config \
 --from-literal=DEBUG=true \
 -n hr-mcp
 
+# Or
+oc apply -f https://raw.githubusercontent.com/osa-ora/ocp-ai-custom-mcp-demo/refs/heads/main/ocp/configmap.yaml -n hr-mcp
+
 # Create Secret
 oc create secret generic hr-mcp-secret \
   --from-literal=DATABASE_USER=postgres \
   --from-literal=DATABASE_PASSWORD=postgres \
   -n hr-mcp
 
-```
+# Or
+oc apply -f https://raw.githubusercontent.com/osa-ora/ocp-ai-custom-mcp-demo/refs/heads/main/ocp/secret.yaml -n hr-mcp
 
+```
 ### 2) Deploy Our HR DB and initialize it
 
 Execute the following command (or you can provision it from the OCP GUI):
